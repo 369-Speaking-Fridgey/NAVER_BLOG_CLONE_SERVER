@@ -1,5 +1,7 @@
 # dependencies
 node_modules/
+.env
+.development.env
 
 # IDE
 /.idea
@@ -42,3 +44,5 @@ yarn-error.log
 /packages/graphql
 /benchmarks/memory
 build/config\.gypi
+
+Icon
