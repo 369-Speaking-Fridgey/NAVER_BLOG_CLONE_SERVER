@@ -7,7 +7,6 @@ import { UpdatePostDto } from "./dto/update-post.dto";
 export class PostsService {
   async createPost(title: string, image: string, contents: string) {
     await this.savePost(title, image, contents);
-
     return "This action adds a new post";
   }
 

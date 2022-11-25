@@ -22,6 +22,7 @@ export class PostsController {
   @Post()
   create(@Body() createPostDto: CreatePostDto) {
     const { title, image, contents } = createPostDto;
+
     return this.postsService.createPost(title, image, contents);
   }
 
