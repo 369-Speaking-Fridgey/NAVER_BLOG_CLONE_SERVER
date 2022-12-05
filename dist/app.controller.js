@@ -17,7 +17,7 @@ let AppController = class AppController {
         this.appService = appService;
     }
     getHello() {
-        return process.env.DATABASE_HOST;
+        return process.env.DATABASE_USER;
     }
 };
 __decorate([
